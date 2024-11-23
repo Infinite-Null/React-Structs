@@ -1,79 +1,93 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# React-Structs
 
-# Getting Started
+React-Structs is an open-source project for visualizing data structures interactively using React Native. Designed for learners, educators, and developers, this project simplifies complex data structures by bringing them to life through interactive visualizations.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Features
 
-## Step 1: Start the Metro Server
+- 🌟 Interactive Visualizations: Explore how data structures like Arrays, Stacks, Queues, and Trees work.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+- 🛠️ Customizable and Extensible: Built with a modular architecture, making it easy to add new structures or features.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- 	📱 Cross-Platform Support: Works seamlessly on both Android and iOS devices using React Native.
 
-```bash
-# using npm
-npm start
+- 🔧 Code Quality Tools: Includes ESLint and Prettier for consistent code formatting and linting.
 
-# OR using Yarn
-yarn start
-```
+- 🚀 Modern Developer Experience: Pre-configured with Husky and Lint-Staged for pre-commit checks, and GitHub Actions for CI.
 
-## Step 2: Start your Application
+## Getting Started
+Follow these instructions to set up the project locally:
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+### Prerequisites
 
-### For Android
+	•	Node.js: v18 or higher
+	•	npm 
+	•	Git installed
+	•	React Native CLI
+	
+### Installation
 
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
+1. Clone the repository
 
 ```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
+git clonehttps://github.com/Infinite-Null/React-Structs
+cd react-structs
 ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+2.	Install dependencies:
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+```bash
+npm install
+```
 
-## Step 3: Modifying your App
+3. Run the app
 
-Now that you have successfully run the app, let's modify it.
+```bash
+npm run start
+```
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+## Development Workflow
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+#### Linting and Formatting
 
-## Congratulations! :tada:
+•	Ensure your code meets linting and formatting standards:
 
-You've successfully run and modified your React Native App. :partying_face:
+```
+npm run lint
+npm run format
+```
 
-### Now what?
+#### Pre-Commit Hooks
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+•	Husky runs linting and formatting checks automatically before commits.
 
-# Troubleshooting
+#### Pull Request Linting
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+•	GitHub Actions ensure that all pull requests pass linting checks before merging.
 
-# Learn More
+## Contributing
 
-To learn more about React Native, take a look at the following resources:
+We welcome contributions! Follow these steps to contribute:
+1.	Fork the repository.
+2.	Create a new branch:
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+```bash
+git checkout -b feature/your-feature-name
+```
+
+3.	Commit your changes:
+
+```bash
+git commit -m "feat: Add new feature"
+```
+
+4.	Push to your branch:
+
+```bash
+git push origin feature/your-feature-name
+```
+
+5.	Open a pull request.
+
+## Acknowledgments
+
+Special thanks to all contributors who make this project better! ❤️
