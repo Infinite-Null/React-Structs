@@ -1,0 +1,20 @@
+# Exclude build and dependency folders
+node_modules/
+android/
+ios/
+vendor/
+
+# Exclude VS Code settings
+.vscode/
+
+# Exclude GitHub workflows
+.github/
+
+# Exclude Husky hooks
+.husky/
+
+# Exclude temporary and bundle files
+.bundle/
+
+# Exclude Markdown files
+*.md
